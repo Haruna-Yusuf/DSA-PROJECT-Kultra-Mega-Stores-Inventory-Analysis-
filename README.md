@@ -31,8 +31,7 @@ This project analyzes customer orders, sales trends, shipping costs, and returns
 
  ## SQL Queries & Results
  ### 1. Product Category with the Highest Sale
-      SELECT top 1 Product_Category, SUM(Sales) AS TotalSales 
-      FROM KMS_Sql_Case_Study2 
-      GROUP BY Product_Category ORDER BY TotalSales DESC
+     
 
-      
+      ![Question one sql](https://github.com/user-attachments/assets/b55f33af-0ddc-41f1-a35d-b39715e524b7)
+
