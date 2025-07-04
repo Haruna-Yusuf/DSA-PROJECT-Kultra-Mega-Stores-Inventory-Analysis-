@@ -15,7 +15,7 @@ This project analyzes customer orders, sales trends, shipping costs, and returns
 
   ## Files Included
 
-## 📄 Key Analysis Topics
+## Key Analysis Topics
 
 1. Highest-selling product category
 2. Top 3 and bottom 3 regions by total sales
@@ -28,3 +28,11 @@ This project analyzes customer orders, sales trends, shipping costs, and returns
 9. Most profitable consumer customer
 10. Customers with returns and their segments
 11. Evaluation of shipping cost vs. order priority
+
+ ## SQL Queries & Results
+ ### 1. Product Category with the Highest Sale
+      SELECT top 1 Product_Category, SUM(Sales) AS TotalSales 
+      FROM KMS_Sql_Case_Study2 
+      GROUP BY Product_Category ORDER BY TotalSales DESC
+
+      
